@@ -1,7 +1,12 @@
 aid: axiall
-url: https://raw.githubusercontent.com/api-evangelist/axiall/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/axiall/refs/heads/main/apis.yml
 modified: '2026-03-23'
 apis: []
 common:
   - type: Website
     url: https://www.axiall.com
+description: >-
+  Axiall Corporation is a manufacturer and international marketer of chemicals and
+  building products, including chlorovinyls and aromatics, for use in industrial and
+  consumer applications.
