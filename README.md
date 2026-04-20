@@ -1,11 +1,11 @@
 # Axiall
 
-This is a repository for tracking the APIs, SDKs, and other developer resources for Axiall.
+Axiall Corporation was a manufacturer and international marketer of chemicals and building products, including chlorovinyls and aromatics, for use in industrial and consumer applications. Axiall was acquired by Westlake Chemical Corporation in 2016.
 
 ## APIs
 
-No APIs have been documented yet. Check back for updates.
+No public APIs have been documented. Axiall was a manufacturing company that was acquired by Westlake Chemical in 2016.
 
-## Properties
+## Links
 
-- [Website](https://www.axiall.com)
+- **Website**: https://www.axiall.com
