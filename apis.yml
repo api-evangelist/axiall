@@ -4,8 +4,10 @@ url:
 modified: '2026-04-19'
 apis: []
 common:
-- type: Website
-  url: https://www.axiall.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/axiall-corporation
+  - type: Website
+    url: https://www.axiall.com
 description: >-
   Axiall Corporation is a manufacturer and international marketer of chemicals and
   building products, including chlorovinyls and aromatics, for use in industrial and
@@ -16,9 +18,9 @@ created: '2026-03-23'
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Chemicals
-- Manufacturing
-- Building Products
+  - Chemicals
+  - Manufacturing
+  - Building Products
 maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
