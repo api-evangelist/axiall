@@ -4,6 +4,8 @@ url:
 modified: '2026-04-19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/axiall-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/axiall-corporation
   - type: Website
