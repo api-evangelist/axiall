@@ -1,0 +1,45 @@
+generated: '2026-09-18'
+method: probed
+source: live HTTP probes of every host apis.yml names (www.axiall.com, axiall.com); apis[] is empty so there are no API or servers[] hosts
+note: >-
+  Recorded absence, no WellKnown pointer emitted. Both hosts resolve to 34.199.101.188 but nothing
+  listens on 80 or 443 — every request timed out (curl 28, 12-40s) and a raw TCP connect to 443 was
+  refused. Axiall Corporation was absorbed into Westlake Chemical on 2016-08-31 and its website is gone;
+  status 0 below means no HTTP response at all, not a 404.
+hosts:
+- host: www.axiall.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 0
+    file: null
+    note: connection timed out
+  - path: /.well-known/openid-configuration
+    status: 0
+    file: null
+    note: connection timed out
+  - path: /.well-known/oauth-authorization-server
+    status: 0
+    file: null
+    note: connection timed out
+  - path: /.well-known/api-catalog
+    status: 0
+    file: null
+    note: connection timed out
+  - path: /.well-known/ai-plugin.json
+    status: 0
+    file: null
+    note: connection timed out
+  - path: /.well-known/agent-card.json
+    status: 0
+    file: null
+    note: connection timed out
+  - path: /.well-known/agent.json
+    status: 0
+    file: null
+    note: connection timed out
+- host: axiall.com
+  documents:
+  - path: /
+    status: 0
+    file: null
+    note: connection timed out after 40s; TCP connect to 34.199.101.188:443 refused

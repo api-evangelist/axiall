@@ -1,6 +1,5 @@
 aid: axiall
-url: 
-  https://raw.githubusercontent.com/api-evangelist/axiall/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/axiall/refs/heads/main/apis.yml
 deliveryModel:
   model: unknown
   open_source: false
@@ -23,28 +22,67 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
-modified: '2026-04-19'
+modified: '2026-09-18'
 apis: []
 common:
-  - type: DomainSecurity
-    url: security/axiall-domain-security.yml
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/axiall-corporation
-  - type: Website
-    url: https://www.axiall.com
-description: >-
-  Axiall Corporation is a manufacturer and international marketer of chemicals and
-  building products, including chlorovinyls and aromatics, for use in industrial and
-  consumer applications.
+- type: DomainSecurity
+  url: security/axiall-domain-security.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/axiall-corporation
+- type: Successor
+  name: Westlake
+  url: https://www.westlake.com
+  note: Westlake Chemical completed its acquisition of Axiall Corporation on 2016-08-31 (westlake.com
+    press release, HTTP 200 on 2026-09-18); www.axiall.com no longer answers.
+description: Axiall Corporation was a manufacturer and international marketer of chemicals and building
+  products, including chlorovinyls (chlor-alkali, PVC resin and vinyl compounds) and aromatics, for use
+  in industrial and consumer applications. Westlake Chemical completed its acquisition of Axiall on 2016-08-31
+  and the Axiall brand and website have been absorbed into Westlake; the company published no developer
+  program or API.
 name: Axiall
 specificationVersion: '0.23'
 created: '2026-03-23'
 type: Index
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/axiall.png
 tags:
-  - Chemicals
-  - Manufacturing
-  - Building Products
+- Chemicals
+- Manufacturing
+- Building Products
+- Chlor-Alkali
+- PVC
+- Vinyls
+- Defunct
+- Acquired
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
+x-status: acquired
+x-enrichment:
+  date: '2026-09-18'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: defunct
+  detail: Axiall was absorbed into Westlake Chemical on 2016-08-31; www.axiall.com and axiall.com resolve
+    to 34.199.101.188 but nothing listens on 80 or 443 (every probe timed out, TCP connect refused), so
+    there is no site, no docs and no contract to read.
+  evidence:
+  - url: https://www.axiall.com
+    status: 0
+  - url: https://axiall.com
+    status: 0
+  - url: https://www.axiall.com/.well-known/agent-card.json
+    status: 0
+  - url: https://www.westlake.com/westlake-chemical-completes-acquisition-axiall-corporation
+    status: 200
+  - url: https://www.linkedin.com/company/axiall-corporation
+    status: 200
+  checked: '2026-09-18'
+x-acquired-by: Westlake Chemical
+x-acquired-date: '2016-08-31'
+x-status-detail: Acquired by Westlake Chemical for $33.00/share, closed 2016-08-31; the Axiall brand and
+  website (www.axiall.com) were absorbed and the host no longer answers on 80 or 443.
+x-parent: westlake-chemical
+x-relationship: acquisition
