@@ -1,7 +1,9 @@
 ---
 title: Axiall Corporation Adds Three Directors to Board | MarketScreener
 url: https://www.marketscreener.com/news/latest/Axiall-Corporation-Adds-Three-Directors-to-Board-15977336/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Axiall" press release artificial intelligence'
 position: 3
 source: serpapi-google

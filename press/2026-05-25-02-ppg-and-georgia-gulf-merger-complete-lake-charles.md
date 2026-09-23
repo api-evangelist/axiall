@@ -1,7 +1,9 @@
 ---
 title: PPG and Georgia Gulf merger complete - Lake Charles
 url: https://www.kplctv.com/story/20718704/ppg-georgia-gulf-merger-nearly-complete/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Axiall" press release artificial intelligence'
 position: 2
 source: serpapi-google

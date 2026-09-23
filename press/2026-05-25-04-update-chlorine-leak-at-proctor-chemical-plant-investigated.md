@@ -1,7 +1,9 @@
 ---
 title: 'Update: Chlorine leak at Proctor chemical plant investigated'
 url: https://www.wtap.com/content/news/Axiall-releases-statement-Chlorine-leak-sends-two-people-to-hospital--391494151.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Axiall" press release artificial intelligence'
 position: 4
 source: serpapi-google

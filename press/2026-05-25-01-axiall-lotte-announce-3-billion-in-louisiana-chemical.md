@@ -1,7 +1,9 @@
 ---
 title: Axiall, Lotte Announce $3 Billion In Louisiana Chemical ...
 url: https://www.opportunitylouisiana.gov/news/axiall-lotte-announce-3-billion-in-louisiana-chemical-projects
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Axiall" press release artificial intelligence'
 position: 1
 source: serpapi-google
